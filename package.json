@@ -9,7 +9,7 @@
     "url": "https://github.com/mikecousins/react-pdf-js"
   },
   "scripts": {
-    "install": "yarn build:umd:min"
+    "install": "yarn build:umd:min",
     "build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
     "build:lib": "babel src --out-dir lib",
     "build:umd": "webpack src/index.js dist/react-pdf-js.js --config webpack.config.development.js",
